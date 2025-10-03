@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Test reports and screenshots
+reports/
+screenshots/
+*.png
+*.jpg
+*.jpeg
