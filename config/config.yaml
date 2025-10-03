@@ -1,0 +1,26 @@
+# Default framework configuration
+
+browser:
+  browser_type: chromium  # chromium, firefox, webkit
+  headless: true
+  slow_mo: 0
+  viewport_width: 1920
+  viewport_height: 1080
+  screenshot_dir: screenshots
+  video_dir: null  # Set path to enable video recording
+
+timeouts:
+  default_timeout: 30000  # milliseconds
+  navigation_timeout: 30000
+  element_timeout: 10000
+
+execution:
+  parallel_workers: 4
+  retry_failed: 2
+  capture_trace: true
+
+# Base URL for tests
+base_url: "https://example.com"
+
+# Test environment
+environment: dev
